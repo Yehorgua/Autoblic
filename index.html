@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Головна</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="index.html">
+    <header class="topbar">
+      <div class="logo">лого</div>
+      <nav class="nav">
+        <button class="nav-item" data-go="index.html">Головна</button>
+        <button class="nav-item" data-go="catalog.html">Каталог</button>
+        <button class="nav-item" data-go="contacts.html">Контакти</button>
+      </nav>
+      <button class="login-btn" data-go="login.html">Вхід</button>
+    </header>
+
+    <section class="hero">
+      <h1>Оренда авто в Україні</h1>
+      <p>Знайдіть ідеальний автомобіль для вашої подорожі</p>
+      <button class="cta" data-go="catalog.html">Обрати авто</button>
+    </section>
+
+    <section class="section">
+      <h2>Популярні авто</h2>
+      <div class="card-grid">
+        <article class="card">
+          <div class="photo">[Фото авто]</div>
+          <div class="card-title">Toyota Camry</div>
+          <p class="muted">2023 · Бензин</p>
+          <div class="price">1200 грн/день</div>
+          <button class="line-btn" data-go="catalog.html">Детальніше</button>
+        </article>
+        <article class="card">
+          <div class="photo">[Фото авто]</div>
+          <div class="card-title">BMW X5</div>
+          <p class="muted">2024 · Дизель</p>
+          <div class="price">2500 грн/день</div>
+          <button class="line-btn" data-go="catalog.html">Детальніше</button>
+        </article>
+        <article class="card">
+          <div class="photo">[Фото авто]</div>
+          <div class="card-title">Mercedes E-Class</div>
+          <p class="muted">2023 · Бензин</p>
+          <div class="price">2200 грн/день</div>
+          <button class="line-btn" data-go="catalog.html">Детальніше</button>
+        </article>
+        <article class="card">
+          <div class="photo">[Фото авто]</div>
+          <div class="card-title">Volkswagen Passat</div>
+          <p class="muted">2023 · Бензин</p>
+          <div class="price">1400 грн/день</div>
+          <button class="line-btn" data-go="catalog.html">Детальніше</button>
+        </article>
+      </div>
+    </section>
+
+    <script src="navigation.js"></script>
+  </body>
+</html>

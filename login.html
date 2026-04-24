@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Вхід</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="login.html">
+    <header class="topbar">
+      <div class="logo">лого</div>
+      <nav class="nav">
+        <button class="nav-item" data-go="index.html">Головна</button>
+        <button class="nav-item" data-go="catalog.html">Каталог</button>
+        <button class="nav-item" data-go="contacts.html">Контакти</button>
+      </nav>
+      <button class="login-btn" data-go="login.html">Вхід</button>
+    </header>
+
+    <main class="auth-wrap">
+      <section class="auth-box">
+        <h1 class="auth-title">Вхід до особистого кабінету</h1>
+
+        <label class="label">Email</label>
+        <input class="input" placeholder="example@email.com" />
+
+        <label class="label">Пароль</label>
+        <input class="input" type="password" placeholder="........" />
+
+        <div class="auth-row">
+          <span>Запам'ятати мене</span>
+          <span style="color: #666">Забули пароль?</span>
+        </div>
+
+        <button class="dark-btn">Увійти</button>
+
+        <div class="divider"></div>
+        <p class="muted" style="text-align: center">Ще не маєте акаунту?</p>
+        <button class="line-btn">Зареєструватися</button>
+
+        <div class="divider"></div>
+        <p class="muted" style="text-align: center">Або увійдіть через:</p>
+        <div class="two-col-inputs">
+          <button class="line-btn">Google</button>
+          <button class="line-btn">Facebook</button>
+        </div>
+      </section>
+    </main>
+
+    <script src="navigation.js"></script>
+  </body>
+</html>

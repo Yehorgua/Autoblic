@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Каталог авто</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="catalog.html">
+    <header class="topbar">
+      <div class="logo">лого</div>
+      <nav class="nav">
+        <button class="nav-item" data-go="index.html">Головна</button>
+        <button class="nav-item" data-go="catalog.html">Каталог</button>
+        <button class="nav-item" data-go="contacts.html">Контакти</button>
+      </nav>
+      <button class="login-btn" data-go="login.html">Вхід</button>
+    </header>
+
+    <main class="container">
+      <h1>Каталог авто</h1>
+      <div class="catalog-layout">
+        <aside class="panel">
+          <div class="panel-title">Фільтри пошуку</div>
+
+          <label class="label" for="class">Клас</label>
+          <select id="class" class="select">
+            <option>Всі</option>
+          </select>
+
+          <label class="label">Ціна (грн/день)</label>
+          <div class="two-col-inputs">
+            <input class="input" placeholder="Від" />
+            <input class="input" placeholder="До" />
+          </div>
+
+          <label class="label" for="fuel">Паливо</label>
+          <select id="fuel" class="select">
+            <option>Всі</option>
+          </select>
+
+          <label class="label" for="year">Рік авто</label>
+          <select id="year" class="select">
+            <option>Всі</option>
+          </select>
+
+          <label class="label">Дати оренди</label>
+          <input class="input" placeholder="дд.мм.гггг" />
+          <input class="input" placeholder="дд.мм.гггг" style="margin-top: 8px" />
+
+          <button class="apply-btn">Застосувати фільтри</button>
+        </aside>
+
+        <section>
+          <p class="found">Знайдено: 8 авто</p>
+          <div class="catalog-grid">
+            <article class="card">
+              <div class="photo">[Фото]</div>
+              <p class="muted">Стандарт</p>
+              <div class="card-title">Toyota Camry</div>
+              <p class="muted">2023 рік</p>
+              <p class="muted">Паливо: Бензин</p>
+              <div class="price">1200 грн/день</div>
+              <button class="line-btn">Детальніше</button>
+            </article>
+            <article class="card">
+              <div class="photo">[Фото]</div>
+              <p class="muted">Преміум</p>
+              <div class="card-title">BMW X5</div>
+              <p class="muted">2024 рік</p>
+              <p class="muted">Паливо: Дизель</p>
+              <div class="price">2500 грн/день</div>
+              <button class="line-btn">Детальніше</button>
+            </article>
+            <article class="card">
+              <div class="photo">[Фото]</div>
+              <p class="muted">Преміум</p>
+              <div class="card-title">Mercedes E-Class</div>
+              <p class="muted">2023 рік</p>
+              <p class="muted">Паливо: Бензин</p>
+              <div class="price">2200 грн/день</div>
+              <button class="line-btn">Детальніше</button>
+            </article>
+            <article class="card">
+              <div class="photo">[Фото]</div>
+              <p class="muted">Стандарт</p>
+              <div class="card-title">Volkswagen Passat</div>
+              <p class="muted">2023 рік</p>
+              <p class="muted">Паливо: Бензин</p>
+              <div class="price">1400 грн/день</div>
+              <button class="line-btn">Детальніше</button>
+            </article>
+            <article class="card">
+              <div class="photo">[Фото]</div>
+              <p class="muted">Бізнес</p>
+              <div class="card-title">Audi A6</div>
+              <p class="muted">2024 рік</p>
+              <p class="muted">Паливо: Дизель</p>
+              <div class="price">2100 грн/день</div>
+              <button class="line-btn">Детальніше</button>
+            </article>
+            <article class="card">
+              <div class="photo">[Фото]</div>
+              <p class="muted">Економ</p>
+              <div class="card-title">Renault Logan</div>
+              <p class="muted">2022 рік</p>
+              <p class="muted">Паливо: Бензин</p>
+              <div class="price">900 грн/день</div>
+              <button class="line-btn">Детальніше</button>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <script src="navigation.js"></script>
+  </body>
+</html>

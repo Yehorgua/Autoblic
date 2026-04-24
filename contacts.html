@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакти</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="contacts.html">
+    <header class="topbar">
+      <div class="logo">лого</div>
+      <nav class="nav">
+        <button class="nav-item" data-go="index.html">Головна</button>
+        <button class="nav-item" data-go="catalog.html">Каталог</button>
+        <button class="nav-item" data-go="contacts.html">Контакти</button>
+      </nav>
+      <button class="login-btn" data-go="login.html">Вхід</button>
+    </header>
+
+    <main class="container">
+      <h1>Контакти</h1>
+      <div class="two-col">
+        <section>
+          <article class="panel">
+            <div class="panel-title">Контактна інформація</div>
+            <p class="label">Телефон</p>
+            <p class="muted">+380 44 123 45 67</p>
+            <p class="muted">Пн-Нд: 08:00 - 22:00</p>
+
+            <p class="label">Пошта</p>
+            <p class="muted">info@carrent.ua</p>
+            <p class="muted">support@carrent.ua</p>
+
+            <p class="label">Адреса офісу</p>
+            <p class="muted">м. Київ, вул. Хрещатик, 1</p>
+            <p class="muted">Пн-Пт: 09:00 - 18:00</p>
+          </article>
+
+          <article class="panel" style="margin-top: 16px">
+            <div class="panel-title">Месенджери</div>
+            <div class="messenger-item">Telegram: @carrent_ua</div>
+            <div class="messenger-item">Viber: +380 44 123 45 67</div>
+            <div class="messenger-item">WhatsApp: +380 44 123 45 67</div>
+          </article>
+        </section>
+
+        <section class="panel">
+          <div class="panel-title">Форма зв'язку</div>
+          <p class="muted">Залиште свої контакти і ми зв'яжемось з вами найближчим часом</p>
+
+          <label class="label">Ім'я</label>
+          <input class="input" placeholder="Ваше ім'я" />
+
+          <label class="label">Телефон</label>
+          <input class="input" placeholder="+380 XX XXX XX XX" />
+
+          <label class="label">Email</label>
+          <input class="input" placeholder="example@email.com" />
+
+          <label class="label">Тема звернення</label>
+          <select class="select">
+            <option>Загальне питання</option>
+          </select>
+
+          <label class="label">Повідомлення</label>
+          <textarea rows="5" placeholder="Опишіть ваше питання або побажання"></textarea>
+
+          <button class="apply-btn" style="margin-top: 14px">Надіслати повідомлення</button>
+        </section>
+      </div>
+    </main>
+
+    <script src="navigation.js"></script>
+  </body>
+</html>
